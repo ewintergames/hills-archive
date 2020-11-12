@@ -1,17 +1,12 @@
-# How to add hill?
-Create file `hills.json` in the directory e.g. `POL/Zakopane/hills.json`
-Then add all hills from that place, then add profiles for the hills in that place. 
-
-```json
 {
-    "place": "Zakopane",
+    "place": "Karpacz",
     "hills": [
         {
-            "name": "Wielka Krokiew",
+            "name": "Orlinek",
             "profiles": [
                 {
-                    "constructionYear": 1977,
-                    "type": 0,
+                    "constructionYear": 2000,
+                    "type": 1,
                     "gates": 24,
                     "w": 85.0,
                     "hn": 0.523,
@@ -44,25 +39,8 @@ Then add all hills from that place, then add profiles for the hills in that plac
                     "inrunStairsLeft": true,
                     "inrunStairsRight": true,
                     "inrunStairsAngle": 0
-                },
-                {
-                    "constructionYear": 2000,
-                    ...
-                },
-                {
-                    "constructionYear": 2017,
-                   ...
                 }
             ]
-        },
-        {
-            "name": "Srednia Krokiew",
-            ...
-        },
-        {
-            "name": "Mala Krokiew",
-            ...
         }
     ]
 }
-```
